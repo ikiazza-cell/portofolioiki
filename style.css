@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+     display: flex;
+     /* text-align: justify;   /* rata kanan kiri */
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #16497f;
+    margin-bottom: 15px;
+}
+
+.job-title {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.biodata h2 {
+    margin-bottom: 15px;
+    color: #16497f;
+}
+
+.biodata ul {
+    list-style: none;
+}
+
+.biodata li {
+    margin-bottom: 10px;
+}
